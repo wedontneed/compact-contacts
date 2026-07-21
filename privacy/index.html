@@ -15,7 +15,7 @@
       <h1>Privacy Policy</h1>
     </div>
     <p class="eyebrow">Compact Contacts for macOS</p>
-    <p class="meta">Effective July 12, 2026 · Publisher: Caglar Serdar</p>
+    <p class="meta">Effective July 21, 2026 · Publisher: Caglar Serdar</p>
     <nav><a href="#data">Data</a><a href="#purchase">Purchase</a><a href="#choices">Your choices</a><a href="../support/">Support</a></nav>
   </header>
   <article>
@@ -25,7 +25,11 @@
 
     <h2>Contacts access</h2>
     <p>The Standard edition requests macOS Contacts permission to show and, only when you explicitly choose, update supported records. It may process names, organizations, job information, email addresses, phone numbers, postal addresses, dates, relationships, URLs, images, group membership, and account/container metadata. It does not request the restricted contact-notes entitlement or contact note field.</p>
-    <p>You control access in System Settings. If access is denied or restricted, contact features remain unavailable until access is restored.</p>
+    <p>You control access in System Settings. If access is denied or restricted, real system-contact features remain unavailable until access is restored; the separate Sample Contacts workspace remains available without permission.</p>
+
+    <h2>Sample Contacts</h2>
+    <p>You can explore a clearly labeled Sample Contacts workspace without granting Contacts permission. It contains fictional names and non-routable sample values generated from a bundled catalog and never reads or writes the macOS Contacts database.</p>
+    <p>Sample edits, new contacts, imports, groups, Favorites, Recents, and Saved Views remain in memory and are discarded when you reset Sample Contacts, choose Use My Contacts, or quit the app. Separate sample layout preferences may be retained by macOS, but sample contact cards and contact-derived session metadata are not written to the production preferences file.</p>
 
     <h2 id="data">Data we do not collect through the app</h2>
     <p>The app does not transmit contact content or identifiers, search queries, clipboard content, edit drafts, advertising identifiers, usage analytics, tracking data, or diagnostic reports to us. It contains no developer-operated contact backend and no third-party analytics or contact-enrichment SDK.</p>
@@ -41,12 +45,14 @@
 
     <h2>Duplicate review</h2>
     <p>Duplicate scanning and field comparison happen locally after you explicitly start a scan. The review is read-only: Compact Contacts does not edit, link, merge, or delete the compared records. You can open Apple Contacts if you decide to make changes.</p>
+    <p>The Apple Contacts handoff is unavailable for fictional Sample Contacts because those records do not exist in the system Contacts database.</p>
 
     <h2>Files and diagnostics</h2>
     <p>vCard import/export and diagnostic export happen only after you choose a file through a macOS panel. Exported vCards can contain contact information. Diagnostic reports are designed to exclude contact content and are never uploaded automatically. You control where files are saved and whether they are shared.</p>
 
     <h2>Actions handled by other apps</h2>
     <p>If you choose email, message, call, FaceTime, maps, website, or Apple Contacts actions, Compact Contacts hands the request to macOS or the selected app. Further processing is controlled by that service and its privacy policy.</p>
+    <p>These system handoffs are disabled while viewing fictional Sample Contacts. Explicit copy and user-selected export remain available and can place fictional sample values on the system pasteboard or in a file you choose.</p>
 
     <h2>Support communications</h2>
     <p>If you email <a href="mailto:wedontneed@gmail.com">wedontneed@gmail.com</a>, we receive the information you choose to send. We use it only to answer, investigate, prevent abuse, and meet legal obligations. Support email is handled through Google Gmail and retained only while reasonably necessary for those purposes, then deleted or de-identified unless law requires longer retention. Do not send real contact data or unredacted address books.</p>
