@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compact Contacts support and troubleshooting.">
+  <title>Compact Contacts Support</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">
+      <img src="../assets/app-icon.png" alt="Compact Contacts app icon">
+      <h1>Compact Contacts</h1>
+    </div>
+    <p class="eyebrow">Support</p>
+    <p class="meta">Focused help for the Standard macOS edition.</p>
+    <nav><a href="#quick-help">Quick help</a><a href="#contact">Contact</a><a href="../privacy/">Privacy</a></nav>
+  </header>
+  <article>
+    <h2 id="quick-help">Quick help</h2>
+    <p><strong>Contacts do not appear:</strong> Open System Settings → Privacy &amp; Security → Contacts and allow Compact Contacts, then return to the app.</p>
+    <p><strong>Explore without Contacts permission:</strong> Click Continue, make your choice in the native macOS permission dialog, then choose View Sample Contacts on the denied or restricted access screen. With an authorized real address book, Help → View Sample Contacts… remains available, and an empty real address book also offers the same action.</p>
+    <p><strong>About Sample Contacts:</strong> The 26 sample records are fictional and temporary. Editing, importing, grouping, favoriting, or saving views there never changes the macOS Contacts database. Use Reset Sample Contacts to restore the catalog or Use My Contacts to leave it. Email, phone, Messages, FaceTime, Maps, website, and Apple Contacts handoffs are disabled for sample records.</p>
+    <p><strong>A contact cannot be edited:</strong> Some directory, Exchange, CardDAV, or linked records may be read-only. Compact Contacts shows editing only when the owning account exposes a writable record.</p>
+    <p><strong>Purchase or feature access:</strong> Compact Contacts is a paid app. Every Standard feature is available immediately after download; there is no trial, subscription, in-app purchase, restore screen, or Pro tier.</p>
+    <p><strong>Bulk Edit:</strong> Select multiple contacts, then choose Contact → Bulk Edit…. Compact Contacts previews organization, department, or job-title changes and explains which records will be skipped. For real contacts, you must save an affected-record vCard before applying the preview.</p>
+    <p><strong>Saved Views:</strong> Use Save as Saved View… to combine multiple conditions with ALL or ANY matching and preserve the table columns, sorting, density, and inspector layout you prefer. Saved Views remain local app metadata and do not copy contact cards.</p>
+    <p><strong>Duplicate contacts:</strong> Choose Contact → Find Potential Duplicates… to run a read-only scan. A separate Resolve Exact Copies… action is available only for confirmed exact copies in one writable account after you choose the keeper, save an affected-record vCard, and identify a recent Apple Contacts archive. Compact Contacts never merges fields, links records, crosses accounts, or runs cleanup automatically; use Apple Contacts for changes outside this narrow boundary.</p>
+    <p><strong>Import, export, and recovery files:</strong> vCard operations always use a macOS open/save panel. Recovery files stay at the location you choose and are never uploaded by Compact Contacts.</p>
+
+    <h2>Diagnostics</h2>
+    <p>Settings → Advanced → Export Redacted Diagnostics… creates a redacted JSON report on your Mac. It is designed to exclude contact names, addresses, email addresses, phone numbers, notes, search text, and contact identifiers. Review any file before sharing it.</p>
+
+    <h2 id="contact">Contact support</h2>
+    <p>Email <a href="mailto:wedontneed@gmail.com?subject=Compact%20Contacts%20Support">wedontneed@gmail.com</a>. Include your macOS version, Compact Contacts version, the account type involved, and steps to reproduce. Do not send an address-book export or real contact data.</p>
+  </article>
+  <footer>© 2026 Caglar Serdar · Compact Contacts</footer>
+</main>
+</body>
+</html>
